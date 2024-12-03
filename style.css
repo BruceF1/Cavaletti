@@ -1,83 +1,29 @@
-.baskervville-regular {
-  font-family: "Baskervville", serif;
-  font-weight:400;
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
-.baskervville-regular-italic {
-  font-family: "Baskervville", serif;
-  font-weight: 400;
-  font-style: italic;
-}
 
-.lato-thin {
-  font-family: "Lato", sans-serif;
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 }
 
-.lato-light {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.lato-regular {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.lato-bold {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.lato-black {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.lato-thin-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.lato-light-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.lato-regular-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.lato-bold-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.lato-black-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
 
 
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+
 }
 
 body {
   margin: 0;
+  background-color: #ffffff !important;
+
 }
 
 main {
@@ -85,41 +31,57 @@ main {
 }
 
 h1 {
-  font-family: "Baskervville", serif;
+  font-family: "Prata", serif;
   font-size: 2rem;
   margin: 0.67rem 0;
 }
 
 h2 {
-  font-family: "Baskervville", serif;
+  font-family: "Prata", serif;
+  color: #505050 !important;
   font-size: 0.6rem;
   margin: 0.22rem;
 }
 
 h3 {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
+  color: #505050  !important;;
   font-size: 0.3rem;
   margin: 0.22rem;
 }
 
 p {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
+  font-family: "DM Sans", sans-serif;
+  color: #505050  !important;;
     font-style: normal;
 }
 
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: #000000 !important;
+  --bs-nav-link-hover-color: #000000 !important;
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  display: flex
+;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
 .cover {
-    height: 700px;
+    height: 400px;
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("src/cover2.jpg");
-    background-color: #000;
+    background-image: url("src/cover4.jpg");
+    background-color: #ffffff;
    }
 
    .bg-black
    {
-    background-color: #000;
+    background-color: #ffffff;
    }
