@@ -81,7 +81,38 @@ p {
     background-color: #ffffff;
    }
 
-   .bg-black
-   {
-    background-color: #ffffff;
-   }
+.dottedBorder{
+  border-top-style: dotted;
+    border-top-width: thin;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #000000 !important;
+  background-color: #00000000 !important;
+}
+
+.img {
+  height: 720px; 
+  object-fit: cover;
+}
+
+.collectionImg1{
+  background-image: url('src/nature.jpg'); 
+  background-size: cover; 
+  background-position: center;
+}
+
+.collectionImg2{
+  background-image: url('src/fun.jpg'); 
+  background-size: cover; 
+  background-position: center;
+}
+
+.collectionImg3{
+  background-image: url('src/statement.jpg'); 
+  background-size: cover; 
+  background-position: center;
+}
+
